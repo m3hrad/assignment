@@ -49,6 +49,14 @@
     {
       "type": "close",
       "value": 75600
+    },
+    {
+      "type": "open",
+      "value": 75700
+    },
+    {
+      "type": "close",
+      "value": 75800
     }
   ]
 }
