@@ -9,6 +9,7 @@ import { BOX, BORDER, BODY, CLOSED } from '../styles/colors';
 
 export default class HoursTable extends React.Component {
   render() {
+
     const daysData = this.props.data;
     const days = Object.keys(daysData).map(key =>
       <Day key={key} day={key} hours={daysData[key]} />
