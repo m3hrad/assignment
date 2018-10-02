@@ -1,25 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import converter from './utils/openingHoursConvertor';
+import HoursTable from './components/HoursTable';
+const input = require('./input/input2');
 
 class App extends Component {
   render() {
+    let convertedData = converter(input);
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <HoursTable data={convertedData} />
       </div>
     );
   }
