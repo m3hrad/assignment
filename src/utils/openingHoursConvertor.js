@@ -2,7 +2,7 @@ let moment = require('moment');
 
 // converts time in UNIX to the time of the day
 function convertTime(time){
-  return moment.unix(time).format('hh:mm A');
+  return moment.unix(time).format('h A');
 }
 
 function openingHoursConverter(data){
