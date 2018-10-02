@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 import converter from './utils/openingHoursConvertor';
 import HoursTable from './components/HoursTable';
 import { BACKGROUND } from './styles/colors';
@@ -13,7 +14,8 @@ class App extends Component {
       height: '100vh',
       display: 'flex',
       flexDirection: 'column',
-      justifyContent: 'center'
+      justifyContent: 'center',
+      fontFamily: 'Circular Std Medium'
     };
 
     return (

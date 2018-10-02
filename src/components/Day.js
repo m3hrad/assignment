@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { TODAY, BORDER, CLOSED } from '../styles/colors';
+import { TODAY, BORDER, CLOSED, BODY } from '../styles/colors';
 let moment = require('moment');
 
 export default class Day extends React.Component {
@@ -18,17 +18,20 @@ export default class Day extends React.Component {
     let todayComponent = '';
 
     if (capitalizedDay === today) {
-      todayComponent = <span style={{color: TODAY}}> TODAY</span>;
+      todayComponent = <span style={{color: TODAY, fontSize: '12px', fontFamily:'Circular Std Bold', marginLeft: '10px'}}>TODAY</span>;
     }
 
     let displayedHours = '';
     let hours = this.props.hours;
 
+    let displayedHoursContent = '';
+    let color = BODY;
     if (hours === undefined || hours.length === 0) {
-      displayedHours = <span style={{color: CLOSED}}>Closed</span>;
+      displayedHoursContent = 'Closed';
+      color = CLOSED;
     }
     else {
-      let displayedHoursContent = this.props.hours.map((hour,index) => {
+      displayedHoursContent = this.props.hours.map((hour,index) => {
         if (hour.type === 'close'){
           hour.value = ' - ' + hour.value;
         }
@@ -37,8 +40,8 @@ export default class Day extends React.Component {
         }
         return hour.value;
       });
-      displayedHours = <span>{displayedHoursContent}</span>;
     }
+    displayedHours = <span style={{color:color, fontFamily: 'Circular Std Book'}}>{displayedHoursContent}</span>;
 
     const containerStyle = {
       display: 'flex',

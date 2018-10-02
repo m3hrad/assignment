@@ -20,14 +20,17 @@ export default class HoursTable extends React.Component {
     };
 
     const titleStyle={
+      fontFamily: 'Circular Std Bold'
+    };
+
+    const titleContainerStyle={
       borderBottom: '1px solid ' + BODY,
-      paddingBottom: '15px'
+      paddingBottom: '15px',
     };
 
     const tableStyle={
       fontSize: '24px',
       lineHeight: '30px',
-      fontWeight: 'bold',
       width: '80%',
       backgroundColor: BOX,
       borderWidth: '10px',
@@ -39,16 +42,18 @@ export default class HoursTable extends React.Component {
 
     const clockStyle={
       color: CLOSED,
-      marginRight: '10px'
+      marginRight: '10px',
+      fontSize: '18px'
     };
 
     return (
       <div style={containerStyle}>
         <div style={tableStyle}>
-          <div style={titleStyle}>
+          <div style={titleContainerStyle}>
             <FontAwesomeIcon style={clockStyle} icon={faClock} />
-
-            Opening hours
+            <span style={titleStyle}>
+              Opening hours
+            </span>
           </div>
           {days}
         </div>
