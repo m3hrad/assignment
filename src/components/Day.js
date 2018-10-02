@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { TODAY, BORDER, CLOSED } from '../styles/colors';
 let moment = require('moment');
-
 
 export default class Day extends React.Component {
   isEven(value){
@@ -16,20 +16,19 @@ export default class Day extends React.Component {
     const today = moment().format('dddd');
     const capitalizedDay = this.capitalizeFirstLetter(this.props.day);
     let todayComponent = '';
+
     if (capitalizedDay === today) {
-      todayComponent = <span>TODAY</span>;
-
+      todayComponent = <span style={{color: TODAY}}> TODAY</span>;
     }
-
 
     let displayedHours = '';
     let hours = this.props.hours;
 
     if (hours === undefined || hours.length === 0) {
-      displayedHours = 'Closed';
+      displayedHours = <span style={{color: CLOSED}}>Closed</span>;
     }
     else {
-      displayedHours = this.props.hours.map((hour,index) => {
+      let displayedHoursContent = this.props.hours.map((hour,index) => {
         if (hour.type === 'close'){
           hour.value = ' - ' + hour.value;
         }
@@ -38,12 +37,26 @@ export default class Day extends React.Component {
         }
         return hour.value;
       });
+      displayedHours = <span>{displayedHoursContent}</span>;
     }
 
+    const containerStyle = {
+      display: 'flex',
+      width: '100%',
+      justifyContent: 'space-between',
+      borderBottom: '1px solid ' +  BORDER,
+      fontSize: '16px',
+      lineHeight: '22px',
+      paddingTop: '5px',
+      paddingBottom: '5px'
+    };
+
     return (
-      <div>
-        {capitalizedDay}
-        {todayComponent}
+      <div style={containerStyle}>
+        <span>
+          {capitalizedDay}
+          {todayComponent}
+        </span>
         {displayedHours}
       </div>
     );

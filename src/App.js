@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import converter from './utils/openingHoursConvertor';
 import HoursTable from './components/HoursTable';
 import { BACKGROUND } from './styles/colors';
@@ -11,7 +10,10 @@ class App extends Component {
 
     const style = {
       backgroundColor: BACKGROUND,
-      height: '100vh'
+      height: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center'
     };
 
     return (
