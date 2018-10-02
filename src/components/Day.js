@@ -50,13 +50,17 @@ export default class Day extends React.Component {
       borderBottom: '1px solid ' +  BORDER,
       fontSize: '16px',
       lineHeight: '22px',
-      paddingTop: '5px',
-      paddingBottom: '5px'
+      paddingTop: '7px',
+      paddingBottom: '7px'
+    };
+
+    const dayContainerStyle = {
+      minWidth: '140px'
     };
 
     return (
       <div style={containerStyle}>
-        <span>
+        <span style={dayContainerStyle}>
           {capitalizedDay}
           {todayComponent}
         </span>
