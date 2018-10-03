@@ -37,7 +37,8 @@ export default class HoursTable extends React.Component {
       borderColor: BORDER,
       borderRadius: '10px',
       padding: '30px',
-      maxWidth: '400px',
+      maxWidth: '280px',
+      minWidth: '250px',
       boxShadow: '0px -5px 10px ' + BORDER + ', -5px 0px 10px ' + BORDER + ', 0px 5px 10px ' + BORDER + ', 5px 0px 10px ' + BORDER
     };
 

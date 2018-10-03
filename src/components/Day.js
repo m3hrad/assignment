@@ -1,13 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { TODAY, BORDER, CLOSED, BODY } from '../styles/colors';
+import {TODAY, BORDER, CLOSED, BODY} from '../styles/colors';
+
 let moment = require('moment');
 
 export default class Day extends React.Component {
-
-  isEven(value){
-    return (value % 2) === 0;
-  }
 
   capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -17,7 +14,7 @@ export default class Day extends React.Component {
     const todayStyle = {
       color: TODAY,
       fontSize: '12px',
-      fontFamily:'Circular Std Bold',
+      fontFamily: 'Circular Std Bold',
       marginLeft: '10px'
     };
 
@@ -25,7 +22,7 @@ export default class Day extends React.Component {
       display: 'flex',
       width: '100%',
       justifyContent: 'space-between',
-      borderBottom: '1px solid ' +  BORDER,
+      borderBottom: '1px solid ' + BORDER,
       fontSize: '16px',
       lineHeight: '22px',
       paddingTop: '7px',
@@ -33,14 +30,24 @@ export default class Day extends React.Component {
     };
 
     const dayContainerStyle = {
-      minWidth: '140px'
+      minWidth: '140px',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center'
+    };
+
+    const displayedHoursStyle = {
+      fontFamily: 'Circular Std Book',
+      display: 'flex',
+      flexWrap: 'wrap',
+      justifyContent: 'flex-end'
     };
 
     const today = moment().format('dddd');
     const capitalizedDay = this.capitalizeFirstLetter(this.props.day);
 
     let hours = this.props.hours;
-    let displayedHoursContent = '';
+    let displayedHoursContent = [];
     let displayedHoursColor = BODY;
 
     let todayComponent = '';
@@ -49,34 +56,45 @@ export default class Day extends React.Component {
       todayComponent = <span style={todayStyle}>TODAY</span>;
     }
 
+    // determine if restaurant is closed
     if (hours === undefined || hours.length === 0) {
-      displayedHoursContent = 'Closed';
+      displayedHoursContent.push(<span key={capitalizedDay}>Closed</span>);
       displayedHoursColor = CLOSED;
     }
     else {
-      displayedHoursContent = this.props.hours.map((hour,index) => {
+      let updatedHoursContent = this.props.hours.map(hour => {
 
         // adds the needed dash between open and close values
-        if (hour.type === 'close'){
+        if (hour.type === 'close') {
           hour.value = ' - ' + hour.value;
-        }
-
-        //checks if there is several openings in a day
-        if (this.isEven(index) && index !== 0){
-          hour.value = ', ' + hour.value;
         }
         return hour.value;
       });
+
+      /*
+      This part takes care of making blocks out of each of the opening-closing hours pairs
+      in order to prevent them going to the next line
+       */
+      for (let i = 0; i < updatedHoursContent.length; i = i + 2) {
+        let andContent = i + 2 < updatedHoursContent.length ? ', ' : '';
+        let element = <span key={i} style={{whiteSpace: 'nowrap'}}>
+          {updatedHoursContent[i]}{updatedHoursContent[i + 1]}{andContent}
+        </span>;
+        displayedHoursContent.push(element);
+      }
     }
 
-    const displayedHours = <span style={{color: displayedHoursColor, fontFamily: 'Circular Std Book'}}>{displayedHoursContent}</span>;
+    displayedHoursStyle['color'] = displayedHoursColor;
+    const displayedHours = <div style={displayedHoursStyle}>{displayedHoursContent}</div>;
 
     return (
       <div style={containerStyle}>
-        <span style={dayContainerStyle}>
-          {capitalizedDay}
-          {todayComponent}
-        </span>
+        <div style={dayContainerStyle}>
+          <span>
+            {capitalizedDay}
+            {todayComponent}
+          </span>
+        </div>
         {displayedHours}
       </div>
     );
