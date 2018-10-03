@@ -5,6 +5,8 @@ The project is a Front-end assignment to read a restaurant's opening hours from 
 
 The website is live at [https://restaurant-opening-hours.herokuapp.com/](https://restaurant-opening-hours.herokuapp.com/)
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ![](screenshot.jpg)
 
