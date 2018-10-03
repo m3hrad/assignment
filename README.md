@@ -1,9 +1,11 @@
 # Restaurant Opening Hours
 > Let's show the hours in the right way!
 
-The project is a Front-end assignment to read a restaurant's opening hours from a JSON files and displaying them nicely according the provided design.
+The project is a Front-end assignment to read a restaurant's opening hours from a JSON file and displaying them nicely according to the provided design.
 
 The website is live at [https://restaurant-opening-hours.herokuapp.com/](https://restaurant-opening-hours.herokuapp.com/)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
 ![](screenshot.jpg)
