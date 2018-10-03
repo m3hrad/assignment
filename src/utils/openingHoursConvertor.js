@@ -17,7 +17,7 @@ function openingHoursConverter(data){
       let timeValues = data[property];
 
       let convertedHours = data[property].map(item => {
-        item.value =  convertTime(item.value);
+        item.value = convertTime(item.value);
         return item;
       });
 

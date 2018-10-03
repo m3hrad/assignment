@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import converter from './utils/openingHoursConvertor';
 import HoursTable from './components/HoursTable';
-import { BACKGROUND } from './styles/colors';
+import {BACKGROUND} from './styles/colors';
+
 const input = require('./input/input2');
 
 class App extends Component {
@@ -19,8 +20,8 @@ class App extends Component {
     };
 
     return (
-      <div className="App" style={style}>
-        <HoursTable data={convertedData} />
+      <div className='App' style={style}>
+        <HoursTable data={convertedData}/>
       </div>
     );
   }
