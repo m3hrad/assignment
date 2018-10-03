@@ -9,60 +9,60 @@ ShallowWrapper {
         "friday": Array [
           Object {
             "type": "open",
-            "value": "12 PM",
+            "value": "10 AM",
           },
           Object {
             "type": "close",
-            "value": "3 AM",
+            "value": "1 AM",
           },
         ],
         "monday": Array [],
         "saturday": Array [
           Object {
             "type": "open",
-            "value": "12 PM",
+            "value": "10 AM",
           },
           Object {
             "type": "close",
-            "value": "3 AM",
+            "value": "1 AM",
           },
         ],
         "sunday": Array [
           Object {
             "type": "open",
-            "value": "2 PM",
+            "value": "12 PM",
           },
           Object {
             "type": "close",
-            "value": "3 PM",
+            "value": "1 PM",
           },
           Object {
             "type": "open",
-            "value": "6 PM",
+            "value": "4 PM",
           },
           Object {
             "type": "close",
-            "value": "9 PM",
+            "value": "7 PM",
           },
         ],
         "thursday": Array [
           Object {
             "type": "open",
-            "value": "12 PM",
+            "value": "10 AM",
           },
           Object {
             "type": "close",
-            "value": "8 PM",
+            "value": "6 PM",
           },
         ],
         "tuesday": Array [
           Object {
             "type": "open",
-            "value": "12 PM",
+            "value": "10 AM",
           },
           Object {
             "type": "close",
-            "value": "8 PM",
+            "value": "6 PM",
           },
         ],
         "wednesday": Array [],
@@ -163,11 +163,11 @@ ShallowWrapper {
             Array [
               Object {
                 "type": "open",
-                "value": "12 PM",
+                "value": "10 AM",
               },
               Object {
                 "type": "close",
-                "value": "8 PM",
+                "value": "6 PM",
               },
             ]
           }
@@ -182,11 +182,11 @@ ShallowWrapper {
             Array [
               Object {
                 "type": "open",
-                "value": "12 PM",
+                "value": "10 AM",
               },
               Object {
                 "type": "close",
-                "value": "8 PM",
+                "value": "6 PM",
               },
             ]
           }
@@ -197,11 +197,11 @@ ShallowWrapper {
             Array [
               Object {
                 "type": "open",
-                "value": "12 PM",
+                "value": "10 AM",
               },
               Object {
                 "type": "close",
-                "value": "3 AM",
+                "value": "1 AM",
               },
             ]
           }
@@ -212,11 +212,11 @@ ShallowWrapper {
             Array [
               Object {
                 "type": "open",
-                "value": "12 PM",
+                "value": "10 AM",
               },
               Object {
                 "type": "close",
-                "value": "3 AM",
+                "value": "1 AM",
               },
             ]
           }
@@ -227,19 +227,19 @@ ShallowWrapper {
             Array [
               Object {
                 "type": "open",
-                "value": "2 PM",
+                "value": "12 PM",
               },
               Object {
                 "type": "close",
-                "value": "3 PM",
+                "value": "1 PM",
               },
               Object {
                 "type": "open",
-                "value": "6 PM",
+                "value": "4 PM",
               },
               Object {
                 "type": "close",
-                "value": "9 PM",
+                "value": "7 PM",
               },
             ]
           }
@@ -324,11 +324,11 @@ ShallowWrapper {
                 Array [
                   Object {
                     "type": "open",
-                    "value": "12 PM",
+                    "value": "10 AM",
                   },
                   Object {
                     "type": "close",
-                    "value": "8 PM",
+                    "value": "6 PM",
                   },
                 ]
               }
@@ -343,11 +343,11 @@ ShallowWrapper {
                 Array [
                   Object {
                     "type": "open",
-                    "value": "12 PM",
+                    "value": "10 AM",
                   },
                   Object {
                     "type": "close",
-                    "value": "8 PM",
+                    "value": "6 PM",
                   },
                 ]
               }
@@ -358,11 +358,11 @@ ShallowWrapper {
                 Array [
                   Object {
                     "type": "open",
-                    "value": "12 PM",
+                    "value": "10 AM",
                   },
                   Object {
                     "type": "close",
-                    "value": "3 AM",
+                    "value": "1 AM",
                   },
                 ]
               }
@@ -373,11 +373,11 @@ ShallowWrapper {
                 Array [
                   Object {
                     "type": "open",
-                    "value": "12 PM",
+                    "value": "10 AM",
                   },
                   Object {
                     "type": "close",
-                    "value": "3 AM",
+                    "value": "1 AM",
                   },
                 ]
               }
@@ -388,19 +388,19 @@ ShallowWrapper {
                 Array [
                   Object {
                     "type": "open",
-                    "value": "2 PM",
+                    "value": "12 PM",
                   },
                   Object {
                     "type": "close",
-                    "value": "3 PM",
+                    "value": "1 PM",
                   },
                   Object {
                     "type": "open",
-                    "value": "6 PM",
+                    "value": "4 PM",
                   },
                   Object {
                     "type": "close",
-                    "value": "9 PM",
+                    "value": "7 PM",
                   },
                 ]
               }
@@ -561,11 +561,11 @@ ShallowWrapper {
             "hours": Array [
               Object {
                 "type": "open",
-                "value": "12 PM",
+                "value": "10 AM",
               },
               Object {
                 "type": "close",
-                "value": "8 PM",
+                "value": "6 PM",
               },
             ],
           },
@@ -594,11 +594,11 @@ ShallowWrapper {
             "hours": Array [
               Object {
                 "type": "open",
-                "value": "12 PM",
+                "value": "10 AM",
               },
               Object {
                 "type": "close",
-                "value": "8 PM",
+                "value": "6 PM",
               },
             ],
           },
@@ -615,11 +615,11 @@ ShallowWrapper {
             "hours": Array [
               Object {
                 "type": "open",
-                "value": "12 PM",
+                "value": "10 AM",
               },
               Object {
                 "type": "close",
-                "value": "3 AM",
+                "value": "1 AM",
               },
             ],
           },
@@ -636,11 +636,11 @@ ShallowWrapper {
             "hours": Array [
               Object {
                 "type": "open",
-                "value": "12 PM",
+                "value": "10 AM",
               },
               Object {
                 "type": "close",
-                "value": "3 AM",
+                "value": "1 AM",
               },
             ],
           },
@@ -657,19 +657,19 @@ ShallowWrapper {
             "hours": Array [
               Object {
                 "type": "open",
-                "value": "2 PM",
+                "value": "12 PM",
               },
               Object {
                 "type": "close",
-                "value": "3 PM",
+                "value": "1 PM",
               },
               Object {
                 "type": "open",
-                "value": "6 PM",
+                "value": "4 PM",
               },
               Object {
                 "type": "close",
-                "value": "9 PM",
+                "value": "7 PM",
               },
             ],
           },
@@ -769,11 +769,11 @@ ShallowWrapper {
               Array [
                 Object {
                   "type": "open",
-                  "value": "12 PM",
+                  "value": "10 AM",
                 },
                 Object {
                   "type": "close",
-                  "value": "8 PM",
+                  "value": "6 PM",
                 },
               ]
             }
@@ -788,11 +788,11 @@ ShallowWrapper {
               Array [
                 Object {
                   "type": "open",
-                  "value": "12 PM",
+                  "value": "10 AM",
                 },
                 Object {
                   "type": "close",
-                  "value": "8 PM",
+                  "value": "6 PM",
                 },
               ]
             }
@@ -803,11 +803,11 @@ ShallowWrapper {
               Array [
                 Object {
                   "type": "open",
-                  "value": "12 PM",
+                  "value": "10 AM",
                 },
                 Object {
                   "type": "close",
-                  "value": "3 AM",
+                  "value": "1 AM",
                 },
               ]
             }
@@ -818,11 +818,11 @@ ShallowWrapper {
               Array [
                 Object {
                   "type": "open",
-                  "value": "12 PM",
+                  "value": "10 AM",
                 },
                 Object {
                   "type": "close",
-                  "value": "3 AM",
+                  "value": "1 AM",
                 },
               ]
             }
@@ -833,19 +833,19 @@ ShallowWrapper {
               Array [
                 Object {
                   "type": "open",
-                  "value": "2 PM",
+                  "value": "12 PM",
                 },
                 Object {
                   "type": "close",
-                  "value": "3 PM",
+                  "value": "1 PM",
                 },
                 Object {
                   "type": "open",
-                  "value": "6 PM",
+                  "value": "4 PM",
                 },
                 Object {
                   "type": "close",
-                  "value": "9 PM",
+                  "value": "7 PM",
                 },
               ]
             }
@@ -930,11 +930,11 @@ ShallowWrapper {
                   Array [
                     Object {
                       "type": "open",
-                      "value": "12 PM",
+                      "value": "10 AM",
                     },
                     Object {
                       "type": "close",
-                      "value": "8 PM",
+                      "value": "6 PM",
                     },
                   ]
                 }
@@ -949,11 +949,11 @@ ShallowWrapper {
                   Array [
                     Object {
                       "type": "open",
-                      "value": "12 PM",
+                      "value": "10 AM",
                     },
                     Object {
                       "type": "close",
-                      "value": "8 PM",
+                      "value": "6 PM",
                     },
                   ]
                 }
@@ -964,11 +964,11 @@ ShallowWrapper {
                   Array [
                     Object {
                       "type": "open",
-                      "value": "12 PM",
+                      "value": "10 AM",
                     },
                     Object {
                       "type": "close",
-                      "value": "3 AM",
+                      "value": "1 AM",
                     },
                   ]
                 }
@@ -979,11 +979,11 @@ ShallowWrapper {
                   Array [
                     Object {
                       "type": "open",
-                      "value": "12 PM",
+                      "value": "10 AM",
                     },
                     Object {
                       "type": "close",
-                      "value": "3 AM",
+                      "value": "1 AM",
                     },
                   ]
                 }
@@ -994,19 +994,19 @@ ShallowWrapper {
                   Array [
                     Object {
                       "type": "open",
-                      "value": "2 PM",
+                      "value": "12 PM",
                     },
                     Object {
                       "type": "close",
-                      "value": "3 PM",
+                      "value": "1 PM",
                     },
                     Object {
                       "type": "open",
-                      "value": "6 PM",
+                      "value": "4 PM",
                     },
                     Object {
                       "type": "close",
-                      "value": "9 PM",
+                      "value": "7 PM",
                     },
                   ]
                 }
@@ -1167,11 +1167,11 @@ ShallowWrapper {
               "hours": Array [
                 Object {
                   "type": "open",
-                  "value": "12 PM",
+                  "value": "10 AM",
                 },
                 Object {
                   "type": "close",
-                  "value": "8 PM",
+                  "value": "6 PM",
                 },
               ],
             },
@@ -1200,11 +1200,11 @@ ShallowWrapper {
               "hours": Array [
                 Object {
                   "type": "open",
-                  "value": "12 PM",
+                  "value": "10 AM",
                 },
                 Object {
                   "type": "close",
-                  "value": "8 PM",
+                  "value": "6 PM",
                 },
               ],
             },
@@ -1221,11 +1221,11 @@ ShallowWrapper {
               "hours": Array [
                 Object {
                   "type": "open",
-                  "value": "12 PM",
+                  "value": "10 AM",
                 },
                 Object {
                   "type": "close",
-                  "value": "3 AM",
+                  "value": "1 AM",
                 },
               ],
             },
@@ -1242,11 +1242,11 @@ ShallowWrapper {
               "hours": Array [
                 Object {
                   "type": "open",
-                  "value": "12 PM",
+                  "value": "10 AM",
                 },
                 Object {
                   "type": "close",
-                  "value": "3 AM",
+                  "value": "1 AM",
                 },
               ],
             },
@@ -1263,19 +1263,19 @@ ShallowWrapper {
               "hours": Array [
                 Object {
                   "type": "open",
-                  "value": "2 PM",
+                  "value": "12 PM",
                 },
                 Object {
                   "type": "close",
-                  "value": "3 PM",
+                  "value": "1 PM",
                 },
                 Object {
                   "type": "open",
-                  "value": "6 PM",
+                  "value": "4 PM",
                 },
                 Object {
                   "type": "close",
-                  "value": "9 PM",
+                  "value": "7 PM",
                 },
               ],
             },

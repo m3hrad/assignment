@@ -3,60 +3,60 @@
   "tuesday": [
     {
       "type": "open",
-      "value": "12 PM"
+      "value": "10 AM"
     },
     {
       "type": "close",
-      "value": "8 PM"
+      "value": "6 PM"
     }
   ],
   "wednesday": [],
   "thursday": [
     {
       "type": "open",
-      "value": "12 PM"
+      "value": "10 AM"
     },
     {
       "type": "close",
-      "value": "8 PM"
+      "value": "6 PM"
     }
   ],
   "friday": [
     {
       "type": "open",
-      "value": "12 PM"
+      "value": "10 AM"
     },
     {
       "type": "close",
-      "value": "3 AM"
+      "value": "1 AM"
     }
   ],
   "saturday": [
     {
       "type": "open",
-      "value": "12 PM"
+      "value": "10 AM"
     },
     {
       "type": "close",
-      "value": "3 AM"
+      "value": "1 AM"
     }
   ],
   "sunday": [
     {
       "type": "open",
-      "value": "2 PM"
+      "value": "12 PM"
     },
     {
       "type": "close",
-      "value": "3 PM"
+      "value": "1 PM"
     },
     {
       "type": "open",
-      "value": "6 PM"
+      "value": "4 PM"
     },
     {
       "type": "close",
-      "value": "9 PM"
+      "value": "7 PM"
     }
   ]
 }

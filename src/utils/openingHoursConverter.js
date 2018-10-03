@@ -1,8 +1,8 @@
-let moment = require('moment');
+let moment = require('moment-timezone');
 
-// converts time in UNIX to the time of the day
+// converts time in UNIX to the time of the day for the UTC
 function convertTime(time) {
-  return moment.unix(time).format('h A');
+  return moment.unix(time).tz('UTC').format('h A');
 }
 
 function openingHoursConverter(data) {
