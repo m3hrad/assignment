@@ -4,7 +4,7 @@ import converter from './utils/openingHoursConverter';
 import HoursTable from './components/HoursTable';
 import {BACKGROUND} from './styles/colors';
 
-const input = require('./input/input2');
+const input = require('./input/input');
 
 class App extends Component {
   render() {
