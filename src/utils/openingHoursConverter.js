@@ -1,11 +1,11 @@
 let moment = require('moment');
 
 // converts time in UNIX to the time of the day
-function convertTime(time){
+function convertTime(time) {
   return moment.unix(time).format('h A');
 }
 
-function openingHoursConverter(data){
+function openingHoursConverter(data) {
 
   let unclosedDay = null;
 
@@ -21,7 +21,7 @@ function openingHoursConverter(data){
         return item;
       });
 
-      if (timeValues.length > 0){
+      if (timeValues.length > 0) {
         let firstTimeValue = timeValues[0];
         let lastTimeValue = timeValues[timeValues.length - 1];
 
@@ -32,7 +32,7 @@ function openingHoursConverter(data){
         }
 
         // keeping track of the last day which is not closed yet.
-        if (lastTimeValue.type === 'open'){
+        if (lastTimeValue.type === 'open') {
           unclosedDay = property;
         }
       }

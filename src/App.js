@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import converter from './utils/openingHoursConvertor';
+import converter from './utils/openingHoursConverter';
 import HoursTable from './components/HoursTable';
 import {BACKGROUND} from './styles/colors';
 

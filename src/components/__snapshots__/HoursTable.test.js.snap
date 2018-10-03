@@ -1,0 +1,1312 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HoursTable renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HoursTable
+    data={
+      Object {
+        "friday": Array [
+          Object {
+            "type": "open",
+            "value": "12 PM",
+          },
+          Object {
+            "type": "close",
+            "value": "3 AM",
+          },
+        ],
+        "monday": Array [],
+        "saturday": Array [
+          Object {
+            "type": "open",
+            "value": "12 PM",
+          },
+          Object {
+            "type": "close",
+            "value": "3 AM",
+          },
+        ],
+        "sunday": Array [
+          Object {
+            "type": "open",
+            "value": "2 PM",
+          },
+          Object {
+            "type": "close",
+            "value": "3 PM",
+          },
+          Object {
+            "type": "open",
+            "value": "6 PM",
+          },
+          Object {
+            "type": "close",
+            "value": "9 PM",
+          },
+        ],
+        "thursday": Array [
+          Object {
+            "type": "open",
+            "value": "12 PM",
+          },
+          Object {
+            "type": "close",
+            "value": "8 PM",
+          },
+        ],
+        "tuesday": Array [
+          Object {
+            "type": "open",
+            "value": "12 PM",
+          },
+          Object {
+            "type": "close",
+            "value": "8 PM",
+          },
+        ],
+        "wednesday": Array [],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        style={
+          Object {
+            "backgroundColor": "rgba(255,255,255,1)",
+            "borderColor": "rgba(32,33,37,0.08)",
+            "borderRadius": "10px",
+            "borderWidth": "10px",
+            "boxShadow": "0px -5px 10px rgba(32,33,37,0.08), -5px 0px 10px rgba(32,33,37,0.08), 0px 5px 10px rgba(32,33,37,0.08), 5px 0px 10px rgba(32,33,37,0.08)",
+            "fontSize": "24px",
+            "lineHeight": "30px",
+            "maxWidth": "400px",
+            "padding": "30px",
+            "width": "80%",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid rgba(32,33,37,1)",
+              "paddingBottom": "15px",
+            }
+          }
+        >
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  512,
+                  512,
+                  Array [],
+                  "f017",
+                  "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z",
+                ],
+                "iconName": "clock",
+                "prefix": "far",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            style={
+              Object {
+                "color": "rgba(32,33,37,0.42)",
+                "fontSize": "18px",
+                "marginRight": "10px",
+              }
+            }
+            symbol={false}
+            title=""
+            transform={null}
+          />
+          <span
+            style={
+              Object {
+                "fontFamily": "Circular Std Bold",
+              }
+            }
+          >
+            Opening hours
+          </span>
+        </div>
+        <Day
+          day="monday"
+          hours={Array []}
+        />
+        <Day
+          day="tuesday"
+          hours={
+            Array [
+              Object {
+                "type": "open",
+                "value": "12 PM",
+              },
+              Object {
+                "type": "close",
+                "value": "8 PM",
+              },
+            ]
+          }
+        />
+        <Day
+          day="wednesday"
+          hours={Array []}
+        />
+        <Day
+          day="thursday"
+          hours={
+            Array [
+              Object {
+                "type": "open",
+                "value": "12 PM",
+              },
+              Object {
+                "type": "close",
+                "value": "8 PM",
+              },
+            ]
+          }
+        />
+        <Day
+          day="friday"
+          hours={
+            Array [
+              Object {
+                "type": "open",
+                "value": "12 PM",
+              },
+              Object {
+                "type": "close",
+                "value": "3 AM",
+              },
+            ]
+          }
+        />
+        <Day
+          day="saturday"
+          hours={
+            Array [
+              Object {
+                "type": "open",
+                "value": "12 PM",
+              },
+              Object {
+                "type": "close",
+                "value": "3 AM",
+              },
+            ]
+          }
+        />
+        <Day
+          day="sunday"
+          hours={
+            Array [
+              Object {
+                "type": "open",
+                "value": "2 PM",
+              },
+              Object {
+                "type": "close",
+                "value": "3 PM",
+              },
+              Object {
+                "type": "open",
+                "value": "6 PM",
+              },
+              Object {
+                "type": "close",
+                "value": "9 PM",
+              },
+            ]
+          }
+        />
+      </div>,
+      "className": "hours-table",
+      "style": Object {
+        "display": "flex",
+        "justifyContent": "center",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            style={
+              Object {
+                "borderBottom": "1px solid rgba(32,33,37,1)",
+                "paddingBottom": "15px",
+              }
+            }
+          >
+            <FontAwesomeIcon
+              border={false}
+              className=""
+              fixedWidth={false}
+              flip={null}
+              icon={
+                Object {
+                  "icon": Array [
+                    512,
+                    512,
+                    Array [],
+                    "f017",
+                    "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z",
+                  ],
+                  "iconName": "clock",
+                  "prefix": "far",
+                }
+              }
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              style={
+                Object {
+                  "color": "rgba(32,33,37,0.42)",
+                  "fontSize": "18px",
+                  "marginRight": "10px",
+                }
+              }
+              symbol={false}
+              title=""
+              transform={null}
+            />
+            <span
+              style={
+                Object {
+                  "fontFamily": "Circular Std Bold",
+                }
+              }
+            >
+              Opening hours
+            </span>
+          </div>,
+          Array [
+            <Day
+              day="monday"
+              hours={Array []}
+            />,
+            <Day
+              day="tuesday"
+              hours={
+                Array [
+                  Object {
+                    "type": "open",
+                    "value": "12 PM",
+                  },
+                  Object {
+                    "type": "close",
+                    "value": "8 PM",
+                  },
+                ]
+              }
+            />,
+            <Day
+              day="wednesday"
+              hours={Array []}
+            />,
+            <Day
+              day="thursday"
+              hours={
+                Array [
+                  Object {
+                    "type": "open",
+                    "value": "12 PM",
+                  },
+                  Object {
+                    "type": "close",
+                    "value": "8 PM",
+                  },
+                ]
+              }
+            />,
+            <Day
+              day="friday"
+              hours={
+                Array [
+                  Object {
+                    "type": "open",
+                    "value": "12 PM",
+                  },
+                  Object {
+                    "type": "close",
+                    "value": "3 AM",
+                  },
+                ]
+              }
+            />,
+            <Day
+              day="saturday"
+              hours={
+                Array [
+                  Object {
+                    "type": "open",
+                    "value": "12 PM",
+                  },
+                  Object {
+                    "type": "close",
+                    "value": "3 AM",
+                  },
+                ]
+              }
+            />,
+            <Day
+              day="sunday"
+              hours={
+                Array [
+                  Object {
+                    "type": "open",
+                    "value": "2 PM",
+                  },
+                  Object {
+                    "type": "close",
+                    "value": "3 PM",
+                  },
+                  Object {
+                    "type": "open",
+                    "value": "6 PM",
+                  },
+                  Object {
+                    "type": "close",
+                    "value": "9 PM",
+                  },
+                ]
+              }
+            />,
+          ],
+        ],
+        "style": Object {
+          "backgroundColor": "rgba(255,255,255,1)",
+          "borderColor": "rgba(32,33,37,0.08)",
+          "borderRadius": "10px",
+          "borderWidth": "10px",
+          "boxShadow": "0px -5px 10px rgba(32,33,37,0.08), -5px 0px 10px rgba(32,33,37,0.08), 0px 5px 10px rgba(32,33,37,0.08), 5px 0px 10px rgba(32,33,37,0.08)",
+          "fontSize": "24px",
+          "lineHeight": "30px",
+          "maxWidth": "400px",
+          "padding": "30px",
+          "width": "80%",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <FontAwesomeIcon
+                border={false}
+                className=""
+                fixedWidth={false}
+                flip={null}
+                icon={
+                  Object {
+                    "icon": Array [
+                      512,
+                      512,
+                      Array [],
+                      "f017",
+                      "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z",
+                    ],
+                    "iconName": "clock",
+                    "prefix": "far",
+                  }
+                }
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                style={
+                  Object {
+                    "color": "rgba(32,33,37,0.42)",
+                    "fontSize": "18px",
+                    "marginRight": "10px",
+                  }
+                }
+                symbol={false}
+                title=""
+                transform={null}
+              />,
+              <span
+                style={
+                  Object {
+                    "fontFamily": "Circular Std Bold",
+                  }
+                }
+              >
+                Opening hours
+              </span>,
+            ],
+            "style": Object {
+              "borderBottom": "1px solid rgba(32,33,37,1)",
+              "paddingBottom": "15px",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "border": false,
+                "className": "",
+                "fixedWidth": false,
+                "flip": null,
+                "icon": Object {
+                  "icon": Array [
+                    512,
+                    512,
+                    Array [],
+                    "f017",
+                    "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z",
+                  ],
+                  "iconName": "clock",
+                  "prefix": "far",
+                },
+                "inverse": false,
+                "listItem": false,
+                "mask": null,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "style": Object {
+                  "color": "rgba(32,33,37,0.42)",
+                  "fontSize": "18px",
+                  "marginRight": "10px",
+                },
+                "symbol": false,
+                "title": "",
+                "transform": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Opening hours",
+                "style": Object {
+                  "fontFamily": "Circular Std Bold",
+                },
+              },
+              "ref": null,
+              "rendered": "Opening hours",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "monday",
+          "nodeType": "class",
+          "props": Object {
+            "day": "monday",
+            "hours": Array [],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "tuesday",
+          "nodeType": "class",
+          "props": Object {
+            "day": "tuesday",
+            "hours": Array [
+              Object {
+                "type": "open",
+                "value": "12 PM",
+              },
+              Object {
+                "type": "close",
+                "value": "8 PM",
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "wednesday",
+          "nodeType": "class",
+          "props": Object {
+            "day": "wednesday",
+            "hours": Array [],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "thursday",
+          "nodeType": "class",
+          "props": Object {
+            "day": "thursday",
+            "hours": Array [
+              Object {
+                "type": "open",
+                "value": "12 PM",
+              },
+              Object {
+                "type": "close",
+                "value": "8 PM",
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "friday",
+          "nodeType": "class",
+          "props": Object {
+            "day": "friday",
+            "hours": Array [
+              Object {
+                "type": "open",
+                "value": "12 PM",
+              },
+              Object {
+                "type": "close",
+                "value": "3 AM",
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "saturday",
+          "nodeType": "class",
+          "props": Object {
+            "day": "saturday",
+            "hours": Array [
+              Object {
+                "type": "open",
+                "value": "12 PM",
+              },
+              Object {
+                "type": "close",
+                "value": "3 AM",
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "sunday",
+          "nodeType": "class",
+          "props": Object {
+            "day": "sunday",
+            "hours": Array [
+              Object {
+                "type": "open",
+                "value": "2 PM",
+              },
+              Object {
+                "type": "close",
+                "value": "3 PM",
+              },
+              Object {
+                "type": "open",
+                "value": "6 PM",
+              },
+              Object {
+                "type": "close",
+                "value": "9 PM",
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          style={
+            Object {
+              "backgroundColor": "rgba(255,255,255,1)",
+              "borderColor": "rgba(32,33,37,0.08)",
+              "borderRadius": "10px",
+              "borderWidth": "10px",
+              "boxShadow": "0px -5px 10px rgba(32,33,37,0.08), -5px 0px 10px rgba(32,33,37,0.08), 0px 5px 10px rgba(32,33,37,0.08), 5px 0px 10px rgba(32,33,37,0.08)",
+              "fontSize": "24px",
+              "lineHeight": "30px",
+              "maxWidth": "400px",
+              "padding": "30px",
+              "width": "80%",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "borderBottom": "1px solid rgba(32,33,37,1)",
+                "paddingBottom": "15px",
+              }
+            }
+          >
+            <FontAwesomeIcon
+              border={false}
+              className=""
+              fixedWidth={false}
+              flip={null}
+              icon={
+                Object {
+                  "icon": Array [
+                    512,
+                    512,
+                    Array [],
+                    "f017",
+                    "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z",
+                  ],
+                  "iconName": "clock",
+                  "prefix": "far",
+                }
+              }
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              style={
+                Object {
+                  "color": "rgba(32,33,37,0.42)",
+                  "fontSize": "18px",
+                  "marginRight": "10px",
+                }
+              }
+              symbol={false}
+              title=""
+              transform={null}
+            />
+            <span
+              style={
+                Object {
+                  "fontFamily": "Circular Std Bold",
+                }
+              }
+            >
+              Opening hours
+            </span>
+          </div>
+          <Day
+            day="monday"
+            hours={Array []}
+          />
+          <Day
+            day="tuesday"
+            hours={
+              Array [
+                Object {
+                  "type": "open",
+                  "value": "12 PM",
+                },
+                Object {
+                  "type": "close",
+                  "value": "8 PM",
+                },
+              ]
+            }
+          />
+          <Day
+            day="wednesday"
+            hours={Array []}
+          />
+          <Day
+            day="thursday"
+            hours={
+              Array [
+                Object {
+                  "type": "open",
+                  "value": "12 PM",
+                },
+                Object {
+                  "type": "close",
+                  "value": "8 PM",
+                },
+              ]
+            }
+          />
+          <Day
+            day="friday"
+            hours={
+              Array [
+                Object {
+                  "type": "open",
+                  "value": "12 PM",
+                },
+                Object {
+                  "type": "close",
+                  "value": "3 AM",
+                },
+              ]
+            }
+          />
+          <Day
+            day="saturday"
+            hours={
+              Array [
+                Object {
+                  "type": "open",
+                  "value": "12 PM",
+                },
+                Object {
+                  "type": "close",
+                  "value": "3 AM",
+                },
+              ]
+            }
+          />
+          <Day
+            day="sunday"
+            hours={
+              Array [
+                Object {
+                  "type": "open",
+                  "value": "2 PM",
+                },
+                Object {
+                  "type": "close",
+                  "value": "3 PM",
+                },
+                Object {
+                  "type": "open",
+                  "value": "6 PM",
+                },
+                Object {
+                  "type": "close",
+                  "value": "9 PM",
+                },
+              ]
+            }
+          />
+        </div>,
+        "className": "hours-table",
+        "style": Object {
+          "display": "flex",
+          "justifyContent": "center",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid rgba(32,33,37,1)",
+                  "paddingBottom": "15px",
+                }
+              }
+            >
+              <FontAwesomeIcon
+                border={false}
+                className=""
+                fixedWidth={false}
+                flip={null}
+                icon={
+                  Object {
+                    "icon": Array [
+                      512,
+                      512,
+                      Array [],
+                      "f017",
+                      "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z",
+                    ],
+                    "iconName": "clock",
+                    "prefix": "far",
+                  }
+                }
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                style={
+                  Object {
+                    "color": "rgba(32,33,37,0.42)",
+                    "fontSize": "18px",
+                    "marginRight": "10px",
+                  }
+                }
+                symbol={false}
+                title=""
+                transform={null}
+              />
+              <span
+                style={
+                  Object {
+                    "fontFamily": "Circular Std Bold",
+                  }
+                }
+              >
+                Opening hours
+              </span>
+            </div>,
+            Array [
+              <Day
+                day="monday"
+                hours={Array []}
+              />,
+              <Day
+                day="tuesday"
+                hours={
+                  Array [
+                    Object {
+                      "type": "open",
+                      "value": "12 PM",
+                    },
+                    Object {
+                      "type": "close",
+                      "value": "8 PM",
+                    },
+                  ]
+                }
+              />,
+              <Day
+                day="wednesday"
+                hours={Array []}
+              />,
+              <Day
+                day="thursday"
+                hours={
+                  Array [
+                    Object {
+                      "type": "open",
+                      "value": "12 PM",
+                    },
+                    Object {
+                      "type": "close",
+                      "value": "8 PM",
+                    },
+                  ]
+                }
+              />,
+              <Day
+                day="friday"
+                hours={
+                  Array [
+                    Object {
+                      "type": "open",
+                      "value": "12 PM",
+                    },
+                    Object {
+                      "type": "close",
+                      "value": "3 AM",
+                    },
+                  ]
+                }
+              />,
+              <Day
+                day="saturday"
+                hours={
+                  Array [
+                    Object {
+                      "type": "open",
+                      "value": "12 PM",
+                    },
+                    Object {
+                      "type": "close",
+                      "value": "3 AM",
+                    },
+                  ]
+                }
+              />,
+              <Day
+                day="sunday"
+                hours={
+                  Array [
+                    Object {
+                      "type": "open",
+                      "value": "2 PM",
+                    },
+                    Object {
+                      "type": "close",
+                      "value": "3 PM",
+                    },
+                    Object {
+                      "type": "open",
+                      "value": "6 PM",
+                    },
+                    Object {
+                      "type": "close",
+                      "value": "9 PM",
+                    },
+                  ]
+                }
+              />,
+            ],
+          ],
+          "style": Object {
+            "backgroundColor": "rgba(255,255,255,1)",
+            "borderColor": "rgba(32,33,37,0.08)",
+            "borderRadius": "10px",
+            "borderWidth": "10px",
+            "boxShadow": "0px -5px 10px rgba(32,33,37,0.08), -5px 0px 10px rgba(32,33,37,0.08), 0px 5px 10px rgba(32,33,37,0.08), 5px 0px 10px rgba(32,33,37,0.08)",
+            "fontSize": "24px",
+            "lineHeight": "30px",
+            "maxWidth": "400px",
+            "padding": "30px",
+            "width": "80%",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <FontAwesomeIcon
+                  border={false}
+                  className=""
+                  fixedWidth={false}
+                  flip={null}
+                  icon={
+                    Object {
+                      "icon": Array [
+                        512,
+                        512,
+                        Array [],
+                        "f017",
+                        "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z",
+                      ],
+                      "iconName": "clock",
+                      "prefix": "far",
+                    }
+                  }
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  style={
+                    Object {
+                      "color": "rgba(32,33,37,0.42)",
+                      "fontSize": "18px",
+                      "marginRight": "10px",
+                    }
+                  }
+                  symbol={false}
+                  title=""
+                  transform={null}
+                />,
+                <span
+                  style={
+                    Object {
+                      "fontFamily": "Circular Std Bold",
+                    }
+                  }
+                >
+                  Opening hours
+                </span>,
+              ],
+              "style": Object {
+                "borderBottom": "1px solid rgba(32,33,37,1)",
+                "paddingBottom": "15px",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "border": false,
+                  "className": "",
+                  "fixedWidth": false,
+                  "flip": null,
+                  "icon": Object {
+                    "icon": Array [
+                      512,
+                      512,
+                      Array [],
+                      "f017",
+                      "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z",
+                    ],
+                    "iconName": "clock",
+                    "prefix": "far",
+                  },
+                  "inverse": false,
+                  "listItem": false,
+                  "mask": null,
+                  "pull": null,
+                  "pulse": false,
+                  "rotation": null,
+                  "size": null,
+                  "spin": false,
+                  "style": Object {
+                    "color": "rgba(32,33,37,0.42)",
+                    "fontSize": "18px",
+                    "marginRight": "10px",
+                  },
+                  "symbol": false,
+                  "title": "",
+                  "transform": null,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Opening hours",
+                  "style": Object {
+                    "fontFamily": "Circular Std Bold",
+                  },
+                },
+                "ref": null,
+                "rendered": "Opening hours",
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "monday",
+            "nodeType": "class",
+            "props": Object {
+              "day": "monday",
+              "hours": Array [],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "tuesday",
+            "nodeType": "class",
+            "props": Object {
+              "day": "tuesday",
+              "hours": Array [
+                Object {
+                  "type": "open",
+                  "value": "12 PM",
+                },
+                Object {
+                  "type": "close",
+                  "value": "8 PM",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "wednesday",
+            "nodeType": "class",
+            "props": Object {
+              "day": "wednesday",
+              "hours": Array [],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "thursday",
+            "nodeType": "class",
+            "props": Object {
+              "day": "thursday",
+              "hours": Array [
+                Object {
+                  "type": "open",
+                  "value": "12 PM",
+                },
+                Object {
+                  "type": "close",
+                  "value": "8 PM",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "friday",
+            "nodeType": "class",
+            "props": Object {
+              "day": "friday",
+              "hours": Array [
+                Object {
+                  "type": "open",
+                  "value": "12 PM",
+                },
+                Object {
+                  "type": "close",
+                  "value": "3 AM",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "saturday",
+            "nodeType": "class",
+            "props": Object {
+              "day": "saturday",
+              "hours": Array [
+                Object {
+                  "type": "open",
+                  "value": "12 PM",
+                },
+                Object {
+                  "type": "close",
+                  "value": "3 AM",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "sunday",
+            "nodeType": "class",
+            "props": Object {
+              "day": "sunday",
+              "hours": Array [
+                Object {
+                  "type": "open",
+                  "value": "2 PM",
+                },
+                Object {
+                  "type": "close",
+                  "value": "3 PM",
+                },
+                Object {
+                  "type": "open",
+                  "value": "6 PM",
+                },
+                Object {
+                  "type": "close",
+                  "value": "9 PM",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

@@ -1,0 +1,12 @@
+{
+  "Monday": [
+    {
+      "type": "open",
+      "value": "12 PM"
+    },
+    {
+      "type": "close",
+      "value": " - 8 PM"
+    }
+  ]
+}

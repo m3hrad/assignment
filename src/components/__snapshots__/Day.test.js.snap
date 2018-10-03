@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Day  renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Day
+    day="Monday"
+    hours={
+      Array [
+        Object {
+          "type": "open",
+          "value": "12 PM",
+        },
+        Object {
+          "type": "close",
+          "value": " -  - 8 PM",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <span
+          style={
+            Object {
+              "minWidth": "140px",
+            }
+          }
+        >
+          Monday
+          
+        </span>,
+        <span
+          style={
+            Object {
+              "color": "rgba(32,33,37,1)",
+              "fontFamily": "Circular Std Book",
+            }
+          }
+        >
+          12 PM
+           -  - 8 PM
+        </span>,
+      ],
+      "style": Object {
+        "borderBottom": "1px solid rgba(32,33,37,0.08)",
+        "display": "flex",
+        "fontSize": "16px",
+        "justifyContent": "space-between",
+        "lineHeight": "22px",
+        "paddingBottom": "7px",
+        "paddingTop": "7px",
+        "width": "100%",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Monday",
+            "",
+          ],
+          "style": Object {
+            "minWidth": "140px",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          "Monday",
+          "",
+        ],
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "12 PM",
+            " -  - 8 PM",
+          ],
+          "style": Object {
+            "color": "rgba(32,33,37,1)",
+            "fontFamily": "Circular Std Book",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          "12 PM",
+          " -  - 8 PM",
+        ],
+        "type": "span",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span
+            style={
+              Object {
+                "minWidth": "140px",
+              }
+            }
+          >
+            Monday
+            
+          </span>,
+          <span
+            style={
+              Object {
+                "color": "rgba(32,33,37,1)",
+                "fontFamily": "Circular Std Book",
+              }
+            }
+          >
+            12 PM
+             -  - 8 PM
+          </span>,
+        ],
+        "style": Object {
+          "borderBottom": "1px solid rgba(32,33,37,0.08)",
+          "display": "flex",
+          "fontSize": "16px",
+          "justifyContent": "space-between",
+          "lineHeight": "22px",
+          "paddingBottom": "7px",
+          "paddingTop": "7px",
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Monday",
+              "",
+            ],
+            "style": Object {
+              "minWidth": "140px",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            "Monday",
+            "",
+          ],
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "12 PM",
+              " -  - 8 PM",
+            ],
+            "style": Object {
+              "color": "rgba(32,33,37,1)",
+              "fontFamily": "Circular Std Book",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            "12 PM",
+            " -  - 8 PM",
+          ],
+          "type": "span",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

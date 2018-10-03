@@ -1,4 +1,5 @@
-import converter from './openingHoursConvertor';
+import converter from './openingHoursConverter';
+
 const input1 = require('../input/input1');
 const input1Converted = require('../input/input1Converted');
 const input2 = require('../input/input2');
