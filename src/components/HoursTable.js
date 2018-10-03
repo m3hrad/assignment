@@ -49,7 +49,7 @@ export default class HoursTable extends React.Component {
     };
 
     return (
-      <div style={containerStyle}>
+      <div className='hours-table' style={containerStyle}>
         <div style={tableStyle}>
           <div style={titleContainerStyle}>
             <FontAwesomeIcon style={clockStyle} icon={faClock} />
