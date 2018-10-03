@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Installation
 
-```sh
+```
 npm install
 ```
 
@@ -20,7 +20,7 @@ npm install
 
 By default input.json is used as the source of the data. To try different values, you need to change its contents.
 
-```sh
+```
 npm test
 npm start
 ```
